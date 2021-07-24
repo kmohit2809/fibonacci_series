@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_74820_fibonacci.checkValidNumber</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>checkValidNumber</name>
+        <script><![CDATA[var checkValidNumber = Class.create();
+checkValidNumber.prototype = {
+    initialize: function() {},
+    isValidNumber: function(num) {
+        if (num.toString().indexOf('.') != -1 || num <= 0)
+            return false;
+        else
+            return true;
+
+    },
+    type: 'checkValidNumber'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 04:01:19</sys_created_on>
+        <sys_id>6f007b952fad30108e70d5ccf699b651</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>checkValidNumber</sys_name>
+        <sys_package display_value="Fibonacci Series" source="x_74820_fibonacci">176ab1912f6930108e70d5ccf699b608</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Fibonacci Series">176ab1912f6930108e70d5ccf699b608</sys_scope>
+        <sys_update_name>sys_script_include_6f007b952fad30108e70d5ccf699b651</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 04:09:47</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fibonacci Series">176ab1912f6930108e70d5ccf699b608</application>
+        <file_path/>
+        <instance_id>0798abf5dbcd37842f68c597059619cd</instance_id>
+        <instance_name>dev83909</instance_name>
+        <name>sys_script_include_6f007b952fad30108e70d5ccf699b651</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_74820_fibonacci.checkValidNumber&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;checkValidNumber&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var checkValidNumber = Class.create();
+checkValidNumber.prototype = {
+    initialize: function() {},
+    isValidNumber: function(num) {
+        if (num.toString().indexOf('.') != -1 || num &lt;= 0)
+            return false;
+        else
+            return true;
+
+    },
+    type: 'checkValidNumber'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-24 04:01:19&lt;/sys_created_on&gt;&lt;sys_id&gt;6f007b952fad30108e70d5ccf699b651&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;checkValidNumber&lt;/sys_name&gt;&lt;sys_package display_value="Fibonacci Series" source="x_74820_fibonacci"&gt;176ab1912f6930108e70d5ccf699b608&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Fibonacci Series"&gt;176ab1912f6930108e70d5ccf699b608&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_6f007b952fad30108e70d5ccf699b651&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-24 04:09:47&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1166248456</payload_hash>
+        <record_name>checkValidNumber</record_name>
+        <reverted_from/>
+        <source>db6ab1912f6930108e70d5ccf699b60a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 04:09:47</sys_created_on>
+        <sys_id>a835b3992fad30108e70d5ccf699b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ad6b470b50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 04:09:47</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>2435b399f3ad301012e3ac198c77c121</update_guid>
+        <update_guid_history>2435b399f3ad301012e3ac198c77c121:-1166248456,5505f75981ad30107575c6800d862505:1695868384,7c643b551dad3010b9cc40457cb87202:717964658,f043b7150aad3010b92c8021cc65ed95:-84824093</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 09:00:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>003d959121134560803ba74241e7c400</sys_id>
+        <sys_metadata>6f007b952fad30108e70d5ccf699b651</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>checkValidNumber</sys_name>
+        <sys_package display_value="Fibonacci Series" source="x_74820_fibonacci">176ab1912f6930108e70d5ccf699b608</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Fibonacci Series">176ab1912f6930108e70d5ccf699b608</sys_scope>
+        <sys_scope_delete display_value="">211f98a9480c4ba58bc656c6bfd53a81</sys_scope_delete>
+        <sys_update_name>sys_script_include_6f007b952fad30108e70d5ccf699b651</sys_update_name>
+        <sys_update_version display_value="sys_script_include_6f007b952fad30108e70d5ccf699b651">a835b3992fad30108e70d5ccf699b621</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 09:00:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

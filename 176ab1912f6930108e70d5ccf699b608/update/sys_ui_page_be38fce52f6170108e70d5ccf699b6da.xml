@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_74820_fibonacci_fibonacci_api_documentation.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<h1 style="color: #5e9ca0;"><span style="color: #000080;">Fibonacci Scripted API</span></h1>
+The Fibonacci Scripted API provides methods for interacting with Fibonacci Series including: 
+<ul>
+<li>GET Fibonacci Series: This API will help you fetch the first N fibonacci number series.
+	API end points: https://dev83909.service-now.com/api/x_74820_fibonacci/fibonacci_series/{number}.
+	Necessary instrutions to access the API:
+	1. Open postman app.
+	2. Use GET method and paste the API end point there.
+	3. Pass a positive integer in path parameter.
+	
+	Error Handeling:
+	1. If the requested parameter is not a number, decimal, negative integer or 0 then a custom error message will be displayed.
+	2. If path parmater is not passed then an OOB error message will be displayed.
+	
+	Some Positive test exmaples:
+	1. API: https://dev83909.service-now.com/api/x_74820_fibonacci/fibonacci_series/1
+	   Response:
+	{
+    "result": {
+        "input": "1",
+        "output": "[0]"
+    }
+	}
+	2. API: https://dev83909.service-now.com/api/x_74820_fibonacci/fibonacci_series/5
+	   Response: 
+	{
+    "result": {
+        "input": "5",
+        "output": "[0,1,1,2,3]"
+    }
+	}
+	3. API: https://dev83909.service-now.com/api/x_74820_fibonacci/fibonacci_series/8
+	   Response:
+	{
+    "result": {
+        "input": "8",
+        "output": "[0,1,1,2,3,5,8,13]"
+    }
+}
+	
+
+</li>
+</ul>
+</j:jelly>]]></html>
+        <name>fibonacci_api_documentation</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 09:24:43</sys_created_on>
+        <sys_id>be38fce52f6170108e70d5ccf699b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fibonacci_api_documentation</sys_name>
+        <sys_package display_value="Fibonacci Series" source="x_74820_fibonacci">176ab1912f6930108e70d5ccf699b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fibonacci Series">176ab1912f6930108e70d5ccf699b608</sys_scope>
+        <sys_update_name>sys_ui_page_be38fce52f6170108e70d5ccf699b6da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 09:24:43</sys_updated_on>
+    </sys_ui_page>
+</record_update>
